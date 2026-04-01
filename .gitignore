@@ -1,0 +1,69 @@
+# Virtual environment
+es-lstm-env/
+env/
+venv/
+ENV/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+src/
+figures/
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+Data files (if large, optional)
+data/raw/*.csv
+ata/processed/*.csv
+
+Model files (if large)
+*.h5
+*.pkl
+models/*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# datasets
+data/
+*.csv
+
+# models
+*.h5
+*.pt
+*.pkl
+
+# logs
+logs/
+
+
+# Models
+models/
+
+# Logs
+tuner_logs/
+
+# Data
+data/processed/
+*.npy
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+es-lstm-env/
+venv/

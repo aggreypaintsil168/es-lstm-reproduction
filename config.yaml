@@ -1,0 +1,32 @@
+data:
+  tickers:
+    SP500:       "^GSPC"
+    NIFTY50:     "^NSEI"
+    HDFCBANK:    "HDFCBANK.NS"
+    NATCOPHARMA: "NATCOPHARM.NS"
+  start_date: "1996-01-01"
+  end_date:   "2024-08-31"
+
+es:
+  alpha_range: [0.1, 0.9, 0.1]
+  beta_range:  [0.1, 0.9, 0.1]
+
+lstm:
+  n_steps:      7
+  test_ratio:   0.05
+  max_trials:   10
+  patience:     5
+  units_min:    32
+  units_max:    512
+  dropout_min:  0.1
+  dropout_max:  0.5
+  lr_min:       1.0e-5
+  lr_max:       1.0e-2
+  batch_sizes:  [8, 16, 32, 64]
+
+paths:
+  raw_data:   "data/raw"
+  smoothed:   "data/smoothed"
+  processed:  "data/processed"
+  models:     "models"
+  figures:    "figures"
