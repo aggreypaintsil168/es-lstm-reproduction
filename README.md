@@ -1,5 +1,4 @@
 
-```markdown
 # ES-LSTM: Hybrid Model for Time Series Forecasting
 
 ## 📊 Project Overview
@@ -241,5 +240,5 @@ This project is for academic and research purposes. Please cite the original pap
 ---
 
 **Note on Metrics**: The scale difference between our implementation and the original paper stems from different normalization strategies. The original paper normalized closing prices to [0,1] or [-1,1] range, while our implementation uses raw price values. This does not affect model performance evaluation within our implementation but should be considered when comparing absolute metric values across studies.
-```
+
 
